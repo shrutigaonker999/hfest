@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			function show_confirm()
+			{
+				var r=confirm("What will you choose?");
+				if(r==true)
+				{
+					alert("You pressed OK!!!");
+				}
+				else
+					alert("You pressed Cancel!!!");
+			}
+		</script>
+	</head>
+	<body>
+		<input type="button" onclick="show_confirm()" value="Show confirm box">
+		<input type="button" onclick="my()" value="Show alert box 2">
+		<script type="text/javascript">
+			function my()
+			{
+				alert("Box2"); 
+			}
+		</script>
+		
+	</body>
+</html>
